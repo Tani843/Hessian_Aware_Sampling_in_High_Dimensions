@@ -9,6 +9,27 @@ permalink: /methodology/
 
 This section presents the detailed mathematical formulation and algorithmic implementation of our Hessian-aware MCMC methods. We develop three complementary approaches that leverage second-order curvature information for efficient high-dimensional sampling.
 
+## Algorithm Flowchart
+
+![Algorithm Flowchart](../assets/images/diagrams/algorithm_flowchart.png)
+*Hessian-Aware Sampling Algorithm Workflow*
+
+The above flowchart illustrates the complete workflow of our Hessian-aware MCMC methods, showing how second-order information is incorporated into the sampling process.
+
+## Geometric Effects
+
+![Hessian Preconditioning](../assets/images/diagrams/hessian_preconditioning_diagram.png)
+*Visualization of Hessian preconditioning geometric effects*
+
+This diagram demonstrates how Hessian preconditioning transforms the sampling geometry, making ill-conditioned problems more tractable.
+
+## Sampling Architecture
+
+![Sampling Architecture](../assets/images/diagrams/sampling_architecture.png)
+*Overall sampling system architecture and component interactions*
+
+The architecture diagram shows how different components of our sampling framework interact to achieve efficient high-dimensional inference.
+
 ## Core Mathematical Framework
 
 ### Target Distribution and Geometric Structure

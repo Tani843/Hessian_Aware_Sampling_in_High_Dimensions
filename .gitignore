@@ -205,3 +205,43 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project specific - Hessian Aware Sampling
+results/temp/
+test_outputs/
+experiment.log
+benchmark_results/temp/
+
+# Jekyll site
+docs/jekyll_site/_site/
+docs/jekyll_site/.sass-cache/
+docs/jekyll_site/.jekyll-metadata
+docs/jekyll_site/.jekyll-cache/
+docs/jekyll_site/Gemfile.lock
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large data files
+*.hdf5
+*.h5
+*.pkl
+*.pickle
+
+# Configuration files with secrets
+config.json
+secrets.json
+.env.local
+.env.production

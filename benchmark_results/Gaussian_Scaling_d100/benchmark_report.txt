@@ -1,0 +1,47 @@
+================================================================================
+COMPREHENSIVE SAMPLER BENCHMARK REPORT
+================================================================================
+
+📊 SUMMARY STATISTICS
+----------------------------------------
+Samplers tested: 4
+Distributions: 1
+Metrics computed: ess, timing, convergence, accuracy
+
+🏆 PERFORMANCE RANKINGS
+----------------------------------------
+
+Effective Sample Size (average):
+  HMC: 595.2
+  Adaptive Metropolis: 19.1
+  Langevin Dynamics: 6.4
+  Standard Metropolis: 3.0
+
+ESS per Second (average):
+  HMC: 187.2
+  Langevin Dynamics: 2.3
+  Adaptive Metropolis: 2.1
+  Standard Metropolis: 1.3
+
+📈 DISTRIBUTION-SPECIFIC RESULTS
+----------------------------------------
+
+Gaussian_Scaling_d100:
+  HMC                 : ESS=595.2   , ESS/s=187.2   , Accept=0.965
+  Langevin Dynamics   : ESS=6.4     , ESS/s=2.3     , Accept=0.994
+  Adaptive Metropolis : ESS=19.1    , ESS/s=2.1     , Accept=0.638
+  Standard Metropolis : ESS=3.0     , ESS/s=1.3     , Accept=0.139
+
+🔬 STATISTICAL SIGNIFICANCE TESTS
+----------------------------------------
+
+ESS:
+
+ESS_per_second:
+
+💡 RECOMMENDATIONS
+----------------------------------------
+• Best overall performance: HMC
+• Best for high dimensions: HMC
+
+================================================================================

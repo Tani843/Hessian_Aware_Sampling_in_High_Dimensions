@@ -1,0 +1,34 @@
+# Core scientific computing
+numpy>=1.20.0
+scipy>=1.7.0
+
+# Automatic differentiation (optional but recommended)
+torch>=1.9.0
+jax>=0.3.0
+jaxlib>=0.3.0
+
+# Visualization
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# Testing
+pytest>=6.0.0
+pytest-cov>=2.12.0
+
+# Development tools
+black>=21.0.0
+flake8>=3.9.0
+mypy>=0.910
+
+# Documentation (optional)
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+nbsphinx>=0.8.0
+
+# Performance profiling (optional)
+line-profiler>=3.3.0
+memory-profiler>=0.60.0
+
+# Data handling (optional)
+pandas>=1.3.0
+h5py>=3.1.0

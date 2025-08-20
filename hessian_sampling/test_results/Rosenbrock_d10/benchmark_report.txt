@@ -1,0 +1,47 @@
+================================================================================
+COMPREHENSIVE SAMPLER BENCHMARK REPORT
+================================================================================
+
+📊 SUMMARY STATISTICS
+----------------------------------------
+Samplers tested: 4
+Distributions: 1
+Metrics computed: ess, timing, convergence, accuracy
+
+🏆 PERFORMANCE RANKINGS
+----------------------------------------
+
+Effective Sample Size (average):
+  Langevin Dynamics: 7.7
+  Adaptive Metropolis: 4.0
+  HMC: 2.0
+  Standard Metropolis: 1.0
+
+ESS per Second (average):
+  Langevin Dynamics: 902.3
+  Adaptive Metropolis: 900.1
+  Standard Metropolis: 365.6
+  HMC: 69.8
+
+📈 DISTRIBUTION-SPECIFIC RESULTS
+----------------------------------------
+
+Rosenbrock_d10:
+  Langevin Dynamics   : ESS=7.7     , ESS/s=902.3   , Accept=0.408
+  Adaptive Metropolis : ESS=4.0     , ESS/s=900.1   , Accept=0.175
+  Standard Metropolis : ESS=1.0     , ESS/s=365.6   , Accept=0.000
+  HMC                 : ESS=2.0     , ESS/s=69.8    , Accept=0.408
+
+🔬 STATISTICAL SIGNIFICANCE TESTS
+----------------------------------------
+
+ESS:
+
+ESS_per_second:
+
+💡 RECOMMENDATIONS
+----------------------------------------
+• Best overall performance: Langevin Dynamics
+• Best for high dimensions: Langevin Dynamics
+
+================================================================================

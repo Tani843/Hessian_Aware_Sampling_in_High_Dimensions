@@ -1,0 +1,33 @@
+title: "Hessian Aware Sampling in High Dimensions"
+description: "Advanced MCMC sampling using Hessian information for efficient high-dimensional posterior exploration"
+baseurl: ""
+url: "https://yourusername.github.io"
+
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor

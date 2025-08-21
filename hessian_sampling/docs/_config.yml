@@ -1,7 +1,7 @@
 title: "Hessian Aware Sampling in High Dimensions"
 description: "Advanced MCMC sampling using Hessian information for efficient high-dimensional posterior exploration"
-baseurl: ""
-url: "https://yourusername.github.io"
+baseurl: "/Hessian_Aware_Sampling_in_High_Dimensions"
+url: "https://Tani843.github.io"
 
 markdown: kramdown
 highlighter: rouge

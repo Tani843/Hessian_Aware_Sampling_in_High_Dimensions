@@ -10,39 +10,39 @@ permalink: /results/
 Our Hessian-aware methods demonstrate significant improvements across all metrics:
 
 ### Method Comparison
-![Method Comparison](../assets/images/plots/fig1_comparison.png)
+![Method Comparison]({{ site.baseurl }}/assets/images/plots/fig1_comparison.png)
 *Comprehensive comparison across different sampling methods*
 
 ### Effective Sample Size Analysis
-![ESS Comparison](../assets/images/plots/ess_comparison.png)
+![ESS Comparison]({{ site.baseurl }}/assets/images/plots/ess_comparison.png)
 *Effective Sample Size showing 2-15x improvements*
 
 ### Performance Dashboard
-![Benchmark Dashboard](../assets/images/plots/benchmark_dashboard.png)
+![Benchmark Dashboard]({{ site.baseurl }}/assets/images/plots/benchmark_dashboard.png)
 *Complete performance metrics dashboard*
 
 ### Dimensional Scaling
-![Scaling Analysis](../assets/images/plots/fig2_scaling.png)
+![Scaling Analysis]({{ site.baseurl }}/assets/images/plots/fig2_scaling.png)
 *Performance scaling with increasing dimensions*
 
 ### Hessian Analysis
-![Hessian Analysis](../assets/images/plots/fig3_hessian.png)
+![Hessian Analysis]({{ site.baseurl }}/assets/images/plots/fig3_hessian.png)
 *Hessian eigenvalue and conditioning analysis*
 
 ### Cost vs Accuracy
-![Cost vs Accuracy](../assets/images/plots/fig4_cost_accuracy.png)
+![Cost vs Accuracy]({{ site.baseurl }}/assets/images/plots/fig4_cost_accuracy.png)
 *Computational cost versus sampling accuracy tradeoff*
 
 ### Convergence Diagnostics
-![Trace Plots](../assets/images/plots/trace_plots.png)
+![Trace Plots]({{ site.baseurl }}/assets/images/plots/trace_plots.png)
 *Sample trace plots demonstrating convergence*
 
 ### Autocorrelation Analysis
-![Autocorrelation](../assets/images/plots/autocorrelation.png)
+![Autocorrelation]({{ site.baseurl }}/assets/images/plots/autocorrelation.png)
 *Autocorrelation functions showing mixing efficiency*
 
 ### Cost vs Accuracy (Detailed)
-![Cost vs Accuracy Detailed](../assets/images/plots/cost_vs_accuracy.png)
+![Cost vs Accuracy Detailed]({{ site.baseurl }}/assets/images/plots/cost_vs_accuracy.png)
 *Detailed cost-accuracy analysis*
 
 ## Key Findings

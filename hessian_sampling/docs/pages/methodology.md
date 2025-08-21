@@ -8,15 +8,15 @@ permalink: /methodology/
 ## Algorithm Overview
 
 ### Hessian-Aware Sampling Workflow
-![Algorithm Flowchart](../assets/images/diagrams/algorithm_flowchart.png)
+![Algorithm Flowchart]({{ site.baseurl }}/assets/images/diagrams/algorithm_flowchart.png)
 *Complete algorithm workflow showing all steps*
 
 ### Geometric Preconditioning
-![Hessian Preconditioning](../assets/images/diagrams/hessian_preconditioning_diagram.png)
+![Hessian Preconditioning]({{ site.baseurl }}/assets/images/diagrams/hessian_preconditioning_diagram.png)
 *Visualization of how Hessian preconditioning improves sampling*
 
 ### System Architecture
-![Sampling Architecture](../assets/images/diagrams/sampling_architecture.png)
+![Sampling Architecture]({{ site.baseurl }}/assets/images/diagrams/sampling_architecture.png)
 *Overall sampling system architecture and component interactions*
 
 ## Mathematical Foundation

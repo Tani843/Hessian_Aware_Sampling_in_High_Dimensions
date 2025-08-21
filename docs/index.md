@@ -81,6 +81,14 @@ where $\xi \sim \mathcal{N}(0, I)$ and $\epsilon$ is the step size. This transfo
 - **Improves mixing**: Enables efficient exploration of elongated distributions  
 - **Reduces correlation**: Decorrelates samples in transformed space
 
+## Key Results Preview
+
+![Benchmark Dashboard](/assets/images/plots/benchmark_dashboard.png)
+
+![ESS Comparison](/assets/images/plots/ess_comparison.png)
+
+![Scaling Figure](/assets/images/plots/fig2_scaling.png)
+
 ## Navigation
 
 <div class="highlight-box">

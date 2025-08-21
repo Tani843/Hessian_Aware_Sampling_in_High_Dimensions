@@ -1,0 +1,12 @@
+<nav class="site-navigation">
+    <ul class="nav-list">
+        {% for item in site.data.navigation.main %}
+            <li>
+                <a href="{{ item.link | relative_url }}" 
+                   {% if page.url == item.link %}class="active"{% endif %}>
+                   {{ item.name }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

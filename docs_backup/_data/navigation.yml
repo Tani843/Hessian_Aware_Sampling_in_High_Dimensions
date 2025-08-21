@@ -1,0 +1,13 @@
+main:
+  - name: "Home"
+    link: "/"
+  - name: "About"
+    link: "/about/"
+  - name: "Methodology"
+    link: "/methodology/"
+  - name: "Results"
+    link: "/results/"
+  - name: "Conclusion"
+    link: "/conclusion/"
+  - name: "Contact"
+    link: "/contact/"

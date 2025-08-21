@@ -1,0 +1,12 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <h1 class="site-title">
+                <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            </h1>
+            <p class="site-description">{{ site.description }}</p>
+        </div>
+        
+        {% include navigation.html %}
+    </div>
+</header>
